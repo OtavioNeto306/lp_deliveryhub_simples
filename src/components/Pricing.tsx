@@ -1,6 +1,7 @@
 import { Check, ArrowRight } from 'lucide-react';
 
 export default function Pricing() {
+  const whatsappLink = (text: string) => `https://wa.me/5571993218281?text=${encodeURIComponent(text)}`;
   const plans = [
     {
       name: 'Plano Mensal',
@@ -88,14 +89,19 @@ export default function Pricing() {
                 )}
               </div>
 
-              <button className={`w-full py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center gap-2 mb-6 ${
-                plan.highlighted
-                  ? 'bg-[#2A6CF0] hover:bg-[#1E5CD8] text-white'
-                  : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
-              }`}>
+              <a
+                href={whatsappLink(`Olá, vi o sistema, gostaria de começar no ${plan.name} (${plan.savings ? 'Anual' : 'Mensal'}) por R$ ${plan.price}/${plan.period}.`)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`w-full py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center gap-2 mb-6 ${
+                  plan.highlighted
+                    ? 'bg-[#2A6CF0] hover:bg-[#1E5CD8] text-white'
+                    : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
+                }`}
+              >
                 Começar Agora
                 <ArrowRight className="w-5 h-5" />
-              </button>
+              </a>
 
               <div className="space-y-3">
                 {plan.features.map((feature, featureIndex) => (

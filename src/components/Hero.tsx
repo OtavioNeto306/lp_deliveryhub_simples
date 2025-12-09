@@ -16,13 +16,23 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-[#2A6CF0] hover:bg-[#1E5CD8] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center gap-2">
+              <a
+                href={`https://wa.me/5571993218281?text=${encodeURIComponent('Olá, vi o sistema, gostaria de experimentar.')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#2A6CF0] hover:bg-[#1E5CD8] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center gap-2"
+              >
                 Experimentar Grátis
                 <ArrowRight className="w-5 h-5" />
-              </button>
-              <button className="border-2 border-gray-300 hover:border-gray-400 text-gray-700 px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
+              </a>
+              <a
+                href={`https://wa.me/5571993218281?text=${encodeURIComponent('Olá, vi o sistema, gostaria de agendar uma demonstração.')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-gray-300 hover:border-gray-400 text-gray-700 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
+              >
                 Agendar Demonstração
-              </button>
+              </a>
             </div>
 
             <div className="flex items-center gap-8 pt-4">
