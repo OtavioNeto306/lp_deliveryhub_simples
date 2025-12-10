@@ -1,4 +1,4 @@
-import { ArrowRight, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 export default function FinalCTA() {
   return (
@@ -12,10 +12,6 @@ export default function FinalCTA() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-          <button className="bg-white hover:bg-gray-100 text-[#2A6CF0] px-10 py-5 rounded-lg font-bold text-lg transition-colors flex items-center justify-center gap-2 shadow-xl">
-            Criar Conta Grátis
-            <ArrowRight className="w-5 h-5" />
-          </button>
           <button className="border-2 border-white hover:bg-white/10 text-white px-10 py-5 rounded-lg font-bold text-lg transition-colors flex items-center justify-center gap-2">
             <MessageCircle className="w-5 h-5" />
             Falar com Especialista
