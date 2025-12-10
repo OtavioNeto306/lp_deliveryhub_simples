@@ -12,10 +12,15 @@ export default function FinalCTA() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-          <button className="border-2 border-white hover:bg-white/10 text-white px-10 py-5 rounded-lg font-bold text-lg transition-colors flex items-center justify-center gap-2">
+          <a
+            href={`https://wa.me/5571993218281?text=${encodeURIComponent('Olá, vi o sistema, gostaria de falar com um especialista.')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border-2 border-white hover:bg-white/10 text-white px-10 py-5 rounded-lg font-bold text-lg transition-colors flex items-center justify-center gap-2"
+          >
             <MessageCircle className="w-5 h-5" />
             Falar com Especialista
-          </button>
+          </a>
         </div>
 
         <div className="flex items-center justify-center gap-6 text-sm opacity-90">
