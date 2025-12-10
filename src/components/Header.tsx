@@ -26,14 +26,6 @@ export default function Header() {
           </a>
         </nav>
 
-        <div className="flex items-center gap-4">
-          <button className="text-gray-600 hover:text-[#2A6CF0] font-medium transition-colors">
-            Entrar
-          </button>
-          <button className="bg-[#2A6CF0] hover:bg-[#1E5CD8] text-white px-6 py-2.5 rounded-lg font-semibold transition-colors">
-            Começar Grátis
-          </button>
-        </div>
       </div>
     </header>
   );
