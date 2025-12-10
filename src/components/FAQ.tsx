@@ -40,7 +40,7 @@ export default function FAQ() {
   ];
 
   return (
-    <section className="bg-white py-20 px-6">
+    <section id="faq" className="bg-white py-20 px-6 scroll-mt-24">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-[#1E1E28] mb-4">

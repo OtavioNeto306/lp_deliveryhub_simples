@@ -42,15 +42,15 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                contato@deliveryhub.com
+                <a href="mailto:suporte@ebytehub.com" className="hover:text-white transition-colors">suporte@ebytehub.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                (11) 9999-9999
+                <a href="tel:+5571993218281" className="hover:text-white transition-colors">(71) 99321-8281</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                São Paulo, SP
+                Salvador - BA
               </li>
             </ul>
           </div>

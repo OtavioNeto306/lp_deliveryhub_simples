@@ -48,7 +48,7 @@ export default function Pricing() {
   ];
 
   return (
-    <section className="bg-[#F5F7FA] py-20 px-6">
+    <section id="planos" className="bg-[#F5F7FA] py-20 px-6 scroll-mt-24">
       <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl font-bold text-[#1E1E28] mb-4">
