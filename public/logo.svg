@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2A6CF0"/>
+      <stop offset="1" stop-color="#1E5CD8"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="32" fill="#ffffff"/>
+  <g transform="translate(24,36)">
+    <path d="M64 24c0-13.255 10.745-24 24-24s24 10.745 24 24h24c0-26.51-21.49-48-48-48S64-2.51 64 24h24z" fill="#2A6CF0" opacity="0.15"/>
+    <rect x="32" y="32" width="176" height="128" rx="20" fill="url(#bag)"/>
+    <path d="M88 32c0 17.673 14.327 32 32 32s32-14.327 32-32" stroke="#ffffff" stroke-width="10" fill="none"/>
+    <path d="M30 84 h28" stroke="#2A6CF0" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+    <path d="M20 104 h38" stroke="#2A6CF0" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+    <path d="M12 124 h44" stroke="#2A6CF0" stroke-width="10" stroke-linecap="round" opacity="0.4"/>
+    <g transform="translate(96,76)">
+      <path d="M32 0c-17.673 0-32 14.327-32 32 0 20 32 56 32 56s32-36 32-56C64 14.327 49.673 0 32 0z" fill="#FFD426"/>
+      <circle cx="32" cy="32" r="12" fill="#2A6CF0"/>
+    </g>
+  </g>
+</svg>

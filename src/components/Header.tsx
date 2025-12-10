@@ -1,13 +1,13 @@
-import { ShoppingBag } from 'lucide-react';
-
 export default function Header() {
   return (
     <header className="bg-white border-b border-gray-200 px-6 py-4 fixed top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-[#2A6CF0] rounded-lg flex items-center justify-center">
-            <ShoppingBag className="w-6 h-6 text-white" />
-          </div>
+          <img
+            src="https://res.cloudinary.com/ddp0dj208/image/upload/v1765321035/Black_And_White_Minimalist_Typography_Personal_Logo_xjcwr3.png"
+            alt="Delivery Hub"
+            className="w-10 h-10 object-contain"
+          />
           <span className="text-2xl font-bold text-[#1E1E28]">Delivery Hub</span>
         </div>
 
